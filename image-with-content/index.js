@@ -7,7 +7,7 @@ const { MediaUpload, MediaUploadCheck } = wp.blockEditor;
 const { Button, Dashicon  } = wp.components;
 const { __ } = wp.i18n;
 
-wp.blocks.registerBlockType('core/image-with-content',{
+registerBlockType('core/image-with-content',{
   title:'Image With Content',
   icon:'admin-plugins',
   category:'design',
