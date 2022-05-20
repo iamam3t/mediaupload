@@ -1,0 +1,31 @@
+#wrapper{
+    width: 100%;
+    margin: 20px auto;
+    padding: 50px;
+    border: 2px solid #dad7d7;
+}
+
+#wrapper label{
+    font-size: medium;
+}
+#wrapper input[type=text], select, textarea{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#wrapper .button-primary{
+    background-color: dodgerblue;
+    color:aliceblue;
+}
+#wrapper .button-primary:hover{
+    background-color: dodgerblue;
+    color:aliceblue;
+}
+#wrapper .button-danger{
+    background-color: tomato;
+    color:aliceblue;
+}
+#wrapper .button-danger:hover{
+    background-color: tomato;
+    color:aliceblue;
+}

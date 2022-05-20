@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json.schemastore.org/block.json",
+    "apiVersion": 2,
+    "title": "Image With Content ",
+    "name":"core/image-with-content",
+    "category": "layout",
+    "icon": "admin-plugins",
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./editor.css",
+    "style":"file:./build/style.css"
+}

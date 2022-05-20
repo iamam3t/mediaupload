@@ -1,0 +1,30 @@
+.wp-block-image-with-content {
+  color: inherit;
+  height: 100px;
+  display: inline;
+  line-height: normal;
+}
+
+.wp-block-image-with-content h3 {
+  font-size:large;
+  margin-block: 0.13em;}
+
+.wp-block-image-with-content p {
+  font-size:medium;
+  margin-block: 0.13em;}
+
+
+.wp-block-image-with-content div.image{
+  width: 25%;
+  float:left;
+}
+.wp-block-image-with-content div.content{
+  width: 70%;
+  float:right;
+}
+.wp-block-image-with-content div.image img{
+  width: 100px;
+  height: 100px;
+  aspect-ratio: auto 100 / 100;
+  border-radius: 15%;
+}
